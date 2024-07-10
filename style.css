@@ -1,75 +1,126 @@
-
-.body{
-    background-color: rgb(236, 236, 236);
+.body {
+  background-color: rgb(236, 236, 236);
 }
-.header{
-    direction: rtl;
-    -webkit-box-shadow: 0px 0px 86px -5px rgba(0,0,0,0.77);
--moz-box-shadow: 0px 0px 86px -5px rgba(0,0,0,0.77);
-box-shadow: 0px 0px 86px -5px rgba(0, 0, 0, 0.408);
-border-radius: 10px;
-width: 70%;
-height: 80px;
-    position: relative;
-    top: 30px;
-    left: 225px;
-    display: flex;
-    justify-content: space-between;
-    
+.header {
+  direction: rtl;
+  -webkit-box-shadow: 0px 0px 86px -5px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: 0px 0px 86px -5px rgba(0, 0, 0, 0.77);
+  box-shadow: 0px 0px 86px -5px rgba(0, 0, 0, 0.408);
+  border-radius: 10px;
+  width: 70%;
+  height: 80px;
+  position: relative;
+  top: 30px;
+  left: 225px;
+  display: flex;
+  justify-content: space-between;
 }
-.menu{
-position: relative;
-top: 35%;
-left: px;
+.menu {
+  position: relative;
+  top: 35%;
+  left: px;
 }
-.name{
-    position: relative;
-    top: 35%;
-    right: 15px;
+.name {
+  position: relative;
+  top: 35%;
+  right: 15px;
 }
 @font-face {
-      font-family: Yekan Bakh1;
-      font-style: normal;
-      font-weight: normal;
-      src: url("Yekan Bakh Family/Webfonts/fonts/woff/YekanBakh-Light.woff")
-          format("woff"),
-        url("Yekan Bakh Family/Webfonts/fonts/woff2/YekanBakh-Light.woff2")
-          format("woff2");
-    }
-    @font-face {
-      font-family: Morabba;
-      font-style: normal;
-      font-weight: 500;
-      src: url("webfont/fonts/woff/Morabba-Medium.woff") format("woff"),
-        url("webfont/fonts/woff2/Morabba-Medium.woff2") format("woff2");
-    }
-    @font-face {
-      font-family: Yekan Bakh;
-      font-style: normal;
-      font-weight: normal;
-      src: url("Yekan Bakh Family/Webfonts/fonts/woff/YekanBakh-Regular.woff")
-          format("woff"),
-        url("Yekan Bakh Family/Webfonts/fonts/woff2/YekanBakh-Regular.woff2")
-          format("woff2");
-    }
-p,h1,h2,h3,h4,h5,h6{
-      direction: rtl;
+  font-family: Yekan Bakh1;
+  font-style: normal;
+  font-weight: normal;
+  src: url("Yekan Bakh Family/Webfonts/fonts/woff/YekanBakh-Light.woff")
+      format("woff"),
+    url("Yekan Bakh Family/Webfonts/fonts/woff2/YekanBakh-Light.woff2")
+      format("woff2");
+}
+@font-face {
+  font-family: Morabba;
+  font-style: normal;
+  font-weight: 500;
+  src: url("webfont/fonts/woff/Morabba-Medium.woff") format("woff"),
+    url("webfont/fonts/woff2/Morabba-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: Yekan Bakh;
+  font-style: normal;
+  font-weight: normal;
+  src: url("Yekan Bakh Family/Webfonts/fonts/woff/YekanBakh-Regular.woff")
+      format("woff"),
+    url("Yekan Bakh Family/Webfonts/fonts/woff2/YekanBakh-Regular.woff2")
+      format("woff2");
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  direction: rtl;
 }
 
-.sepahan-after-header{
-      padding: 0 220px; /* فاصله از سمت راست و چپ */
-      font-family: Morabba;
+.sepahan-after-header {
+  padding: 0 220px; /* فاصله از سمت راست و چپ */
+  font-family: Morabba;
+  margin-top: 100px;
 }
-
-
 
 .sepahan-after-header-container {
-      display: flex;
-      align-items: center; /* برای تراز کردن عمودی المان‌ها */
-      justify-content: flex-start;
-  }
-  .sepahan-after-header-img {
-      width: 500px;
-      height: 500px;
-      margin-right: 120px; /* فاصله بین تصویر و متن */
-  }
+  display: flex;
+  align-items: center; /* برای تراز کردن عمودی المان‌ها */
+  justify-content: flex-start;
+}
+.sepahan-after-header-img {
+  width: 500px;
+  height: 500px;
+  margin-right: 120px; /* فاصله بین تصویر و متن */
+}
+
+
+.sepahan-text{
+ font-size: 60px;
+ color: #D85820;
+}
+
+.sepahan-trust{
+  font-size: 40px;
+  color: #404040;
+}
+
+.sepahan-description{
+  font-size: 19px;
+  color: #868686;
+  font-family: Yekan Bakh;
+}
+
+
+.button{
+  background-color: #ed682f;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-family: Morabba;
+}
+
+.button:hover{
+  transition: 1s;
+  background-color: #e05a21;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
