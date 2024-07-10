@@ -2,40 +2,40 @@
   background-color: rgb(236, 236, 236);
 }
 
-.header{
-    direction: rtl;
-    -webkit-box-shadow: 0px 0px 86px -5px rgba(0,0,0,0.77);
--moz-box-shadow: 0px 0px 86px -5px rgba(0,0,0,0.77);
-box-shadow: 0px 0px 86px -5px rgba(0, 0, 0, 0.408);
-border-radius: 10px;
-width: 70%;
-height: 80px;
-    position: relative;
-    top: 30px;
-    left: 225px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 90px;
+.header {
+  direction: rtl;
+  -webkit-box-shadow: 0px 0px 86px -5px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: 0px 0px 86px -5px rgba(0, 0, 0, 0.77);
+  box-shadow: 0px 0px 86px -5px rgba(0, 0, 0, 0.408);
+  border-radius: 10px;
+  width: 70%;
+  height: 80px;
+  position: relative;
+  top: 30px;
+  left: 225px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
 }
-#menu1{
-position: relative;
-top: 35%;
-left: 70px;
+#menu1 {
+  position: relative;
+  top: 35%;
+  left: 70px;
 }
-#menu2{
-    position: relative;
-top: 35%;
-left: 220px;
+#menu2 {
+  position: relative;
+  top: 35%;
+  left: 220px;
 }
-#menu3{
-    position: relative;
-top: 35%;
-left: 365px;
+#menu3 {
+  position: relative;
+  top: 35%;
+  left: 365px;
 }
-#menu4{
-position: relative;
-top: 35%;
-left: 515px;
+#menu4 {
+  position: relative;
+  top: 35%;
+  left: 515px;
 }
 .header {
   direction: rtl;
@@ -113,25 +113,23 @@ h6 {
   margin-right: 120px; /* فاصله بین تصویر و متن */
 }
 
-
-.sepahan-text{
- font-size: 60px;
- color: #D85820;
+.sepahan-text {
+  font-size: 60px;
+  color: #d85820;
 }
 
-.sepahan-trust{
+.sepahan-trust {
   font-size: 40px;
   color: #404040;
 }
 
-.sepahan-description{
+.sepahan-description {
   font-size: 19px;
   color: #868686;
   font-family: Yekan Bakh;
 }
 
-
-.button{
+.button {
   background-color: #ed682f;
   color: white;
   font-size: 20px;
@@ -144,7 +142,7 @@ h6 {
   font-family: Morabba;
 }
 
-.button:hover{
+.button:hover {
   transition: 1s;
   background-color: #e05a21;
   color: white;
@@ -160,3 +158,4 @@ h6 {
   -ms-transition: 1s;
   -o-transition: 1s;
 }
+
