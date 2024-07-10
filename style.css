@@ -15,12 +15,27 @@ height: 80px;
     left: 225px;
     display: flex;
     justify-content: space-between;
-    
+    margin-bottom: 90px;
 }
-.menu{
+#menu1{
 position: relative;
 top: 35%;
-left: px;
+left: 70px;
+}
+#menu2{
+    position: relative;
+top: 35%;
+left: 220px;
+}
+#menu3{
+    position: relative;
+top: 35%;
+left: 365px;
+}
+#menu4{
+position: relative;
+top: 35%;
+left: 515px;
 }
 .name{
     position: relative;
