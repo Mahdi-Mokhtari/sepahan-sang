@@ -1,3 +1,4 @@
+
 .body{
     background-color: rgb(236, 236, 236);
 }
@@ -26,3 +27,49 @@ left: px;
     top: 35%;
     right: 15px;
 }
+@font-face {
+      font-family: Yekan Bakh1;
+      font-style: normal;
+      font-weight: normal;
+      src: url("Yekan Bakh Family/Webfonts/fonts/woff/YekanBakh-Light.woff")
+          format("woff"),
+        url("Yekan Bakh Family/Webfonts/fonts/woff2/YekanBakh-Light.woff2")
+          format("woff2");
+    }
+    @font-face {
+      font-family: Morabba;
+      font-style: normal;
+      font-weight: 500;
+      src: url("webfont/fonts/woff/Morabba-Medium.woff") format("woff"),
+        url("webfont/fonts/woff2/Morabba-Medium.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: Yekan Bakh;
+      font-style: normal;
+      font-weight: normal;
+      src: url("Yekan Bakh Family/Webfonts/fonts/woff/YekanBakh-Regular.woff")
+          format("woff"),
+        url("Yekan Bakh Family/Webfonts/fonts/woff2/YekanBakh-Regular.woff2")
+          format("woff2");
+    }
+p,h1,h2,h3,h4,h5,h6{
+      direction: rtl;
+}
+
+.sepahan-after-header{
+      padding: 0 220px; /* فاصله از سمت راست و چپ */
+      font-family: Morabba;
+}
+
+
+
+.sepahan-after-header-container {
+      display: flex;
+      align-items: center; /* برای تراز کردن عمودی المان‌ها */
+      justify-content: flex-start;
+  }
+  .sepahan-after-header-img {
+      width: 500px;
+      height: 500px;
+      margin-right: 120px; /* فاصله بین تصویر و متن */
+  }
