@@ -25,17 +25,28 @@ left: 70px;
 #menu2{
     position: relative;
 top: 35%;
-left: 220px;
+left:170px;
 }
 #menu3{
     position: relative;
 top: 35%;
-left: 365px;
+left: 265px;
 }
 #menu4{
 position: relative;
 top: 35%;
-left: 515px;
+left: 360px;
+
+}
+#number{
+    text-align: center;
+    position: relative;
+top: 26%;
+left: 180px;
+background-color: #d8410046;
+border-radius: 10px;
+width: 160px;
+height: 40px;
 }
 .header {
   direction: rtl;
@@ -50,11 +61,6 @@ left: 515px;
   left: 225px;
   display: flex;
   justify-content: space-between;
-}
-.menu {
-  position: relative;
-  top: 35%;
-  left: px;
 }
 .name {
   position: relative;
