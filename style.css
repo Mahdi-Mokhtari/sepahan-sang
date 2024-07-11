@@ -61,19 +61,34 @@ padding-right: 60px;
 }
 #menu3{
   font-family: Morabba ;
-    position: relative;
-top: 39%;
-left: 265px;
-padding-left: 60px;
-padding-right: 60px;
- 
+  position: relative;
+  top: 39%;
+  left: 265px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 #menu4{
   font-family: Morabba ;
-position: relative;
-top: 39%;
-left: 300px;
-
+  position: relative;
+  top: 39%;
+  left: 300px;
+  
+}
+#menu1:hover{
+  cursor: pointer;
+color: #d85820;
+}
+#menu2:hover{
+  cursor: pointer;
+color: #d85820;
+}
+#menu3:hover{
+  cursor: pointer;
+color: #d85820;
+}
+#menu4:hover{
+  cursor: pointer;
+color: #d85820;
 }
 #number{
  font-family: Morabba ; 
